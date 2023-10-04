@@ -32,6 +32,12 @@
 		7A71B77D2ACDB322000C317B /* CustomDatePicker22onborn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7782ACDB322000C317B /* CustomDatePicker22onborn.swift */; };
 		7A71B77E2ACDB322000C317B /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7792ACDB322000C317B /* cardView.swift */; };
 		7A71B77F2ACDB322000C317B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B77A2ACDB322000C317B /* Home.swift */; };
+		7A71B7862ACDB352000C317B /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7802ACDB351000C317B /* ClubView.swift */; };
+		7A71B7872ACDB352000C317B /* HBDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7812ACDB352000C317B /* HBDView.swift */; };
+		7A71B7882ACDB352000C317B /* CalBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7822ACDB352000C317B /* CalBackground.swift */; };
+		7A71B7892ACDB352000C317B /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7832ACDB352000C317B /* AddTaskView.swift */; };
+		7A71B78A2ACDB352000C317B /* HBDViews.Sup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7842ACDB352000C317B /* HBDViews.Sup.swift */; };
+		7A71B78B2ACDB352000C317B /* wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7852ACDB352000C317B /* wheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +67,12 @@
 		7A71B7782ACDB322000C317B /* CustomDatePicker22onborn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDatePicker22onborn.swift; sourceTree = "<group>"; };
 		7A71B7792ACDB322000C317B /* cardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
 		7A71B77A2ACDB322000C317B /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7A71B7802ACDB351000C317B /* ClubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
+		7A71B7812ACDB352000C317B /* HBDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBDView.swift; sourceTree = "<group>"; };
+		7A71B7822ACDB352000C317B /* CalBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalBackground.swift; sourceTree = "<group>"; };
+		7A71B7832ACDB352000C317B /* AddTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		7A71B7842ACDB352000C317B /* HBDViews.Sup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBDViews.Sup.swift; sourceTree = "<group>"; };
+		7A71B7852ACDB352000C317B /* wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +105,12 @@
 		7A71B7462ACDB230000C317B /* HBDLaunch */ = {
 			isa = PBXGroup;
 			children = (
+				7A71B7832ACDB352000C317B /* AddTaskView.swift */,
+				7A71B7822ACDB352000C317B /* CalBackground.swift */,
+				7A71B7802ACDB351000C317B /* ClubView.swift */,
+				7A71B7812ACDB352000C317B /* HBDView.swift */,
+				7A71B7842ACDB352000C317B /* HBDViews.Sup.swift */,
+				7A71B7852ACDB352000C317B /* wheel.swift */,
 				7A71B7792ACDB322000C317B /* cardView.swift */,
 				7A71B7772ACDB322000C317B /* CustomDatePicker.swift */,
 				7A71B7782ACDB322000C317B /* CustomDatePicker22onborn.swift */,
@@ -209,20 +227,26 @@
 				7A71B7752ACDB2E8000C317B /* DATETIME.TRASH.swift in Sources */,
 				7A71B74A2ACDB230000C317B /* ContentView.swift in Sources */,
 				7A71B7482ACDB230000C317B /* HBDLaunchApp.swift in Sources */,
+				7A71B78A2ACDB352000C317B /* HBDViews.Sup.swift in Sources */,
 				7A71B7702ACDB2E8000C317B /* BirthMonth.swift in Sources */,
 				7A71B7732ACDB2E8000C317B /* DATETIME.swift in Sources */,
+				7A71B78B2ACDB352000C317B /* wheel.swift in Sources */,
+				7A71B7862ACDB352000C317B /* ClubView.swift in Sources */,
 				7A71B76F2ACDB2E8000C317B /* ChatView.swift in Sources */,
 				7A71B7652ACDB291000C317B /* Holy.swift in Sources */,
 				7A71B7632ACDB291000C317B /* NetworkManager.swift in Sources */,
 				7A71B7622ACDB291000C317B /* DateValue.swift in Sources */,
 				7A71B77F2ACDB322000C317B /* Home.swift in Sources */,
 				7A71B7672ACDB291000C317B /* ClupCardData.swift in Sources */,
+				7A71B7872ACDB352000C317B /* HBDView.swift in Sources */,
 				7A71B77E2ACDB322000C317B /* cardView.swift in Sources */,
 				7A71B7612ACDB291000C317B /* CheckboxView.swift in Sources */,
 				7A71B7712ACDB2E8000C317B /* PartyView.swift in Sources */,
 				7A71B7662ACDB291000C317B /* Ubuntu.swift in Sources */,
 				7A71B77D2ACDB322000C317B /* CustomDatePicker22onborn.swift in Sources */,
 				7A71B7542ACDB231000C317B /* HBDLaunch.xcdatamodeld in Sources */,
+				7A71B7882ACDB352000C317B /* CalBackground.swift in Sources */,
+				7A71B7892ACDB352000C317B /* AddTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
