@@ -20,6 +20,13 @@
 		7A71B7652ACDB291000C317B /* Holy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B75E2ACDB291000C317B /* Holy.swift */; };
 		7A71B7662ACDB291000C317B /* Ubuntu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B75F2ACDB291000C317B /* Ubuntu.swift */; };
 		7A71B7672ACDB291000C317B /* ClupCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7602ACDB291000C317B /* ClupCardData.swift */; };
+		7A71B76F2ACDB2E8000C317B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7682ACDB2E8000C317B /* ChatView.swift */; };
+		7A71B7702ACDB2E8000C317B /* BirthMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7692ACDB2E8000C317B /* BirthMonth.swift */; };
+		7A71B7712ACDB2E8000C317B /* PartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B76A2ACDB2E8000C317B /* PartyView.swift */; };
+		7A71B7722ACDB2E8000C317B /* LaunchSCreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B76B2ACDB2E8000C317B /* LaunchSCreen.swift */; };
+		7A71B7732ACDB2E8000C317B /* DATETIME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B76C2ACDB2E8000C317B /* DATETIME.swift */; };
+		7A71B7742ACDB2E8000C317B /* VipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B76D2ACDB2E8000C317B /* VipCardView.swift */; };
+		7A71B7752ACDB2E8000C317B /* DATETIME.TRASH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B76E2ACDB2E8000C317B /* DATETIME.TRASH.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,13 @@
 		7A71B75E2ACDB291000C317B /* Holy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Holy.swift; sourceTree = "<group>"; };
 		7A71B75F2ACDB291000C317B /* Ubuntu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ubuntu.swift; sourceTree = "<group>"; };
 		7A71B7602ACDB291000C317B /* ClupCardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClupCardData.swift; sourceTree = "<group>"; };
+		7A71B7682ACDB2E8000C317B /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		7A71B7692ACDB2E8000C317B /* BirthMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthMonth.swift; sourceTree = "<group>"; };
+		7A71B76A2ACDB2E8000C317B /* PartyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyView.swift; sourceTree = "<group>"; };
+		7A71B76B2ACDB2E8000C317B /* LaunchSCreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchSCreen.swift; sourceTree = "<group>"; };
+		7A71B76C2ACDB2E8000C317B /* DATETIME.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DATETIME.swift; sourceTree = "<group>"; };
+		7A71B76D2ACDB2E8000C317B /* VipCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VipCardView.swift; sourceTree = "<group>"; };
+		7A71B76E2ACDB2E8000C317B /* DATETIME.TRASH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DATETIME.TRASH.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,13 @@
 		7A71B7462ACDB230000C317B /* HBDLaunch */ = {
 			isa = PBXGroup;
 			children = (
+				7A71B7692ACDB2E8000C317B /* BirthMonth.swift */,
+				7A71B7682ACDB2E8000C317B /* ChatView.swift */,
+				7A71B76C2ACDB2E8000C317B /* DATETIME.swift */,
+				7A71B76E2ACDB2E8000C317B /* DATETIME.TRASH.swift */,
+				7A71B76B2ACDB2E8000C317B /* LaunchSCreen.swift */,
+				7A71B76A2ACDB2E8000C317B /* PartyView.swift */,
+				7A71B76D2ACDB2E8000C317B /* VipCardView.swift */,
 				7A71B75A2ACDB291000C317B /* CheckboxView.swift */,
 				7A71B7602ACDB291000C317B /* ClupCardData.swift */,
 				7A71B75B2ACDB291000C317B /* DateValue.swift */,
@@ -165,14 +186,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A71B7642ACDB291000C317B /* Task.swift in Sources */,
+				7A71B7742ACDB2E8000C317B /* VipCardView.swift in Sources */,
 				7A71B7512ACDB231000C317B /* Persistence.swift in Sources */,
+				7A71B7722ACDB2E8000C317B /* LaunchSCreen.swift in Sources */,
+				7A71B7752ACDB2E8000C317B /* DATETIME.TRASH.swift in Sources */,
 				7A71B74A2ACDB230000C317B /* ContentView.swift in Sources */,
 				7A71B7482ACDB230000C317B /* HBDLaunchApp.swift in Sources */,
+				7A71B7702ACDB2E8000C317B /* BirthMonth.swift in Sources */,
+				7A71B7732ACDB2E8000C317B /* DATETIME.swift in Sources */,
+				7A71B76F2ACDB2E8000C317B /* ChatView.swift in Sources */,
 				7A71B7652ACDB291000C317B /* Holy.swift in Sources */,
 				7A71B7632ACDB291000C317B /* NetworkManager.swift in Sources */,
 				7A71B7622ACDB291000C317B /* DateValue.swift in Sources */,
 				7A71B7672ACDB291000C317B /* ClupCardData.swift in Sources */,
 				7A71B7612ACDB291000C317B /* CheckboxView.swift in Sources */,
+				7A71B7712ACDB2E8000C317B /* PartyView.swift in Sources */,
 				7A71B7662ACDB291000C317B /* Ubuntu.swift in Sources */,
 				7A71B7542ACDB231000C317B /* HBDLaunch.xcdatamodeld in Sources */,
 			);
