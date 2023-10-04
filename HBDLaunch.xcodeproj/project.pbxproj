@@ -38,6 +38,7 @@
 		7A71B7892ACDB352000C317B /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7832ACDB352000C317B /* AddTaskView.swift */; };
 		7A71B78A2ACDB352000C317B /* HBDViews.Sup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7842ACDB352000C317B /* HBDViews.Sup.swift */; };
 		7A71B78B2ACDB352000C317B /* wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7852ACDB352000C317B /* wheel.swift */; };
+		7A71B78D2ACDB3C9000C317B /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B78C2ACDB3C9000C317B /* MainContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		7A71B7832ACDB352000C317B /* AddTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		7A71B7842ACDB352000C317B /* HBDViews.Sup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBDViews.Sup.swift; sourceTree = "<group>"; };
 		7A71B7852ACDB352000C317B /* wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wheel.swift; sourceTree = "<group>"; };
+		7A71B78C2ACDB3C9000C317B /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				7A71B75F2ACDB291000C317B /* Ubuntu.swift */,
 				7A71B7472ACDB230000C317B /* HBDLaunchApp.swift */,
 				7A71B7492ACDB230000C317B /* ContentView.swift */,
+				7A71B78C2ACDB3C9000C317B /* MainContentView.swift */,
 				7A71B74B2ACDB231000C317B /* Assets.xcassets */,
 				7A71B7502ACDB231000C317B /* Persistence.swift */,
 				7A71B7522ACDB231000C317B /* HBDLaunch.xcdatamodeld */,
@@ -242,6 +245,7 @@
 				7A71B77E2ACDB322000C317B /* cardView.swift in Sources */,
 				7A71B7612ACDB291000C317B /* CheckboxView.swift in Sources */,
 				7A71B7712ACDB2E8000C317B /* PartyView.swift in Sources */,
+				7A71B78D2ACDB3C9000C317B /* MainContentView.swift in Sources */,
 				7A71B7662ACDB291000C317B /* Ubuntu.swift in Sources */,
 				7A71B77D2ACDB322000C317B /* CustomDatePicker22onborn.swift in Sources */,
 				7A71B7542ACDB231000C317B /* HBDLaunch.xcdatamodeld in Sources */,
