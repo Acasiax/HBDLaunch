@@ -13,6 +13,13 @@
 		7A71B74F2ACDB231000C317B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A71B74E2ACDB231000C317B /* Preview Assets.xcassets */; };
 		7A71B7512ACDB231000C317B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7502ACDB231000C317B /* Persistence.swift */; };
 		7A71B7542ACDB231000C317B /* HBDLaunch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7522ACDB231000C317B /* HBDLaunch.xcdatamodeld */; };
+		7A71B7612ACDB291000C317B /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B75A2ACDB291000C317B /* CheckboxView.swift */; };
+		7A71B7622ACDB291000C317B /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B75B2ACDB291000C317B /* DateValue.swift */; };
+		7A71B7632ACDB291000C317B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B75C2ACDB291000C317B /* NetworkManager.swift */; };
+		7A71B7642ACDB291000C317B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B75D2ACDB291000C317B /* Task.swift */; };
+		7A71B7652ACDB291000C317B /* Holy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B75E2ACDB291000C317B /* Holy.swift */; };
+		7A71B7662ACDB291000C317B /* Ubuntu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B75F2ACDB291000C317B /* Ubuntu.swift */; };
+		7A71B7672ACDB291000C317B /* ClupCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7602ACDB291000C317B /* ClupCardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		7A71B74E2ACDB231000C317B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A71B7502ACDB231000C317B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7A71B7532ACDB231000C317B /* HBDLaunch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HBDLaunch.xcdatamodel; sourceTree = "<group>"; };
+		7A71B75A2ACDB291000C317B /* CheckboxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		7A71B75B2ACDB291000C317B /* DateValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		7A71B75C2ACDB291000C317B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7A71B75D2ACDB291000C317B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		7A71B75E2ACDB291000C317B /* Holy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Holy.swift; sourceTree = "<group>"; };
+		7A71B75F2ACDB291000C317B /* Ubuntu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ubuntu.swift; sourceTree = "<group>"; };
+		7A71B7602ACDB291000C317B /* ClupCardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClupCardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,13 @@
 		7A71B7462ACDB230000C317B /* HBDLaunch */ = {
 			isa = PBXGroup;
 			children = (
+				7A71B75A2ACDB291000C317B /* CheckboxView.swift */,
+				7A71B7602ACDB291000C317B /* ClupCardData.swift */,
+				7A71B75B2ACDB291000C317B /* DateValue.swift */,
+				7A71B75E2ACDB291000C317B /* Holy.swift */,
+				7A71B75C2ACDB291000C317B /* NetworkManager.swift */,
+				7A71B75D2ACDB291000C317B /* Task.swift */,
+				7A71B75F2ACDB291000C317B /* Ubuntu.swift */,
 				7A71B7472ACDB230000C317B /* HBDLaunchApp.swift */,
 				7A71B7492ACDB230000C317B /* ContentView.swift */,
 				7A71B74B2ACDB231000C317B /* Assets.xcassets */,
@@ -143,9 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A71B7642ACDB291000C317B /* Task.swift in Sources */,
 				7A71B7512ACDB231000C317B /* Persistence.swift in Sources */,
 				7A71B74A2ACDB230000C317B /* ContentView.swift in Sources */,
 				7A71B7482ACDB230000C317B /* HBDLaunchApp.swift in Sources */,
+				7A71B7652ACDB291000C317B /* Holy.swift in Sources */,
+				7A71B7632ACDB291000C317B /* NetworkManager.swift in Sources */,
+				7A71B7622ACDB291000C317B /* DateValue.swift in Sources */,
+				7A71B7672ACDB291000C317B /* ClupCardData.swift in Sources */,
+				7A71B7612ACDB291000C317B /* CheckboxView.swift in Sources */,
+				7A71B7662ACDB291000C317B /* Ubuntu.swift in Sources */,
 				7A71B7542ACDB231000C317B /* HBDLaunch.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
